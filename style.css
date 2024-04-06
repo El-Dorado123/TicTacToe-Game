@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+h1{
+    margin-top: 1rem;
+    font-size: 11vmin;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(35, 33, 33, 0.747);
+    
+}
+.container{
+    height: 70vmin; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,1.1);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: wheat;
+}
+.reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgba(48, 44, 44, 0.822);
+    color: white;
+}
+.msg{
+    margin-top: 0.5rem;
+    color: white;
+    font-size: 4.5vmin;
+}
+.hide{
+    display: none;
+}
